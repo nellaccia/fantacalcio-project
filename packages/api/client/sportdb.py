@@ -78,6 +78,7 @@ class Api(Client):
     return self.make_request(url, payload=args)
   
   """Endpoint che restituisce le caratteristiche di un giocatore sulla base della squadra e del nome"""
+  #
   #https://nuvolaris.dev/api/v1/web/tmarinelli/api/client?module=sportdb&action=searchPlayerByName&teamName=Milan&playerName=Leao
   def searchPlayerByNameAndTeam(self, args={}):
     #p=Ronaldo
